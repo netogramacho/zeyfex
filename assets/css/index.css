@@ -1,0 +1,185 @@
+.first-card {
+    text-align: left;
+    padding-top: 3em;
+    width: 100%;
+}
+
+.first-card h1 {
+    margin-bottom: 0.5em;
+}
+
+.first-card p {
+    margin-bottom: 2em;
+}
+
+.second-card {
+    text-align: center;
+    padding-top: 10em;
+    width: 100%;
+}
+
+.second-card img {
+    width: unset;
+}
+
+.second-card .icons p {
+    font-size: 1.25em;
+}
+
+.second-card .icons img {
+    margin-bottom: 0.5em;
+}
+
+.second-card hr,
+.seventh-card hr,
+.tenth-card hr {
+    margin-left: auto;
+}
+
+.circle-icon {
+    width: 100%;
+    padding: 1.5em;
+    border-radius: 50%;
+    background-color: #00DAD71A;
+    margin-bottom: 1em;
+}
+
+.third-card {
+    margin-top: 10em;
+    padding: 5em 0;
+}
+
+.fourth-card {
+    padding: 10em 0;
+}
+
+.fifth-card {
+    padding: 10em 0;
+}
+
+.fifth-card .btn-red {
+    margin: 2em auto 0;
+}
+
+.sixth-card {
+    padding: 10em 0;
+}
+
+.seventh-card {
+    padding: 10em 0;
+}
+
+.seventh-card img {
+    padding-top: 2em;
+    width: 100%;
+}
+
+.eighth-card {
+    padding: 10em 0;
+}
+
+.nineth-card {
+    padding: 10em 0;
+}
+
+.nineth-card .btn-dark-green {
+    width: 15em;
+    font-size: 1em;
+    border-radius: 0.75em;
+    padding: 0.75em 0.5em 0.75em 1.5em;
+}
+
+.nineth-card .btn-dark-green i {
+    font-size: 2em;
+    margin-top: 0.35em;
+}
+
+.nineth-card .btn-dark-green span {
+    font-size: 1.5em;
+}
+
+.tenth-card {
+    padding: 10em 0;
+}
+
+.tenth-card img {
+    padding-top: 2em;
+    width: 100%;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mini-cripto-1 {
+    background-image: url("../imagens/mini-cripto-1.png");
+    background-size: auto;
+    background-repeat: none;
+    height: 20px;
+}
+
+#mini-cripto-2 {
+    background-image: url("../imagens/mini-cripto-2.png");
+    background-size: auto;
+    background-repeat: none;
+    height: 20px;
+}
+
+#mini-cripto-3 {
+    background-image: url("../imagens/mini-cripto-3.png");
+    background-size: auto;
+    background-repeat: none;
+    height: 20px;
+}
+
+#mini-cripto-4 {
+    background-image: url("../imagens/mini-cripto-4.png");
+    background-size: auto;
+    background-repeat: none;
+    height: 20px;
+}
+
+#mini-cripto-5 {
+    background-image: url("../imagens/mini-cripto-5.png");
+    background-size: auto;
+    background-repeat: none;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .icons img {
+        width: 35%;
+        margin-bottom: 1em;
+    }
+    .icone {
+        max-height: 6em;
+        margin-bottom: 2em;
+    }
+    .third-card,
+    .fourth-card,
+    .fifth-card,
+    .sixth-card,
+    .nineth-card {
+        padding: 2.5em 0;
+    }
+    .fifth-card .btn-red {
+        margin: unset;
+        margin-top: 2em;
+    }
+    .seventh-card div {
+        text-align: left!important;
+    }
+    .eighth-card ul {
+        margin-left: -2em;
+    }
+    .eighth-card ul li {
+        font-size: 1.6em;
+    }
+    .nineth-card img {
+        margin-top: 3em;
+    }
+    .tenth-card div {
+        text-align: left!important;
+    }
+}

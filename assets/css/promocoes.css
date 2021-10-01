@@ -1,0 +1,333 @@
+.first-card {
+    padding: 1em 0;
+}
+
+.second-card {
+    padding: 1em 0 5em;
+}
+
+.second-card hr {
+    margin: 2em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-card p {
+    margin-bottom: 1em;
+}
+
+.second-card .btn-red {
+    width: 13.125em;
+    border-radius: 0.5em;
+    padding: 0.75em;
+}
+
+.third-card {
+    padding: 10em 0;
+}
+
+.third-card h2 {
+    padding-bottom: 3em;
+}
+
+.third-card .div-slider {
+    padding-bottom: 2em;
+}
+
+.third-card h3 span {
+    color: #F1304D;
+}
+
+.coin-option {
+    width: 12.5em;
+    height: 12.5em;
+    padding: 3em 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+    background-color: #FFFFFF0D;
+    border-radius: 2.5em;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.coin-option:hover {
+    opacity: 1;
+}
+
+.coin-option.selected {
+    border: 3px solid #00DAD7;
+    opacity: 1;
+}
+
+.coin-option img {
+    width: unset;
+    margin: 1em;
+}
+
+.pieProgress {
+    color: #ffffff;
+}
+
+.texto-grafico {
+    color: #ffffff;
+    position: absolute;
+    top: 6.5em;
+    left: 10em;
+}
+
+.pie_progress__svg {
+    width: 25em;
+}
+
+.slider {
+    background: #3f4851;
+    border: solid 1px #3f4851;
+    border-radius: 0.5em;
+    height: 0.5em;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #F1304D;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background: #F1304D;
+}
+
+.third-card .cashback-texts {
+    padding-top: 10em;
+}
+
+.third-card .cashback-level {
+    background-color: #F1304D;
+    color: #ffffff;
+    padding: 0.3em;
+    border-radius: 0.3em;
+}
+
+.third-card .div-cashback-level p {
+    padding: 1em 0;
+    font: normal normal normal 1.5em Roboto-Regular;
+}
+
+.third-card .cashback-value {
+    font: normal normal normal 4.375em Roboto-Regular;
+}
+
+.third-card .div-total-cashback h3 {
+    padding-top: 1.5em;
+}
+
+.fourth-card {
+    padding: 5em 0;
+}
+
+.fourth-card h2 {
+    padding-bottom: 1em;
+}
+
+.fourth-card h1 {
+    color: #F1304D;
+}
+
+.fourth-card .margin-auto {
+    margin: 0 auto;
+}
+
+.fourth-card .margin-auto p {
+    padding-top: 0.5em;
+}
+
+.fourth-card .btn-red {
+    margin-top: 1em;
+    width: 13.125em;
+    border-radius: 0.5em;
+    padding: 0.75em;
+}
+
+.fifth-card {
+    padding: 5em 0;
+}
+
+.fifth-card .step {
+    background-color: #18423d;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    height: 2.5em;
+    width: fit-content;
+}
+
+.fifth-card .step p {
+    font-size: 1.25em;
+    opacity: 1;
+    color: #00DA6D;
+}
+
+.fifth-card img {
+    width: unset;
+}
+
+.div-step {
+    margin: 3em 0;
+}
+
+.sixth-card {
+    padding: 5em 0;
+}
+
+.sixth-card h2 {
+    padding: 2em 0;
+}
+
+.sixth-card .btn-light-green {
+    background-color: #1eda6d;
+}
+
+.card-tipo-conta {
+    background-color: #262d38;
+    text-align: center;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+}
+
+.card-tipo-conta h3 span {
+    font: normal normal normal 4em Roboto-Medium;
+}
+
+.title-card {
+    padding-top: 2em;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.title-card h2 {
+    padding: 0;
+}
+
+.body-card {
+    padding: 2em 1em;
+}
+
+.footer-card {
+    padding: 2em 1em;
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.line-body-card {
+    text-align: right;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+.footer-card .line-body-card {
+    border: none;
+}
+
+.footer-card .line-body-card p {
+    font-size: 2em;
+}
+
+.footer-card .line-body-card span {
+    font-size: 0.5em;
+}
+
+.line-body-card p {
+    font: normal normal normal 1em Roboto-regular;
+    opacity: 1;
+    display: inline;
+    width: 100%;
+}
+
+.line-body-card span {
+    padding-top: 0.1em;
+    float: left;
+    opacity: 0.5;
+}
+
+.card-tipo-conta.second {
+    background-color: #FFFFFF;
+}
+
+.card-tipo-conta.second h2 {
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.card-tipo-conta.second .title-card p {
+    opacity: 0.5;
+}
+
+.title-card {
+    height: 7.5em;
+}
+
+.card-tipo-conta.second p {
+    opacity: 1;
+    display: inline;
+    width: 100%;
+    color: #333333;
+}
+
+.card-tipo-conta.second .color-blue {
+    color: #1eda6d;
+    font-weight: normal;
+}
+
+.sixth-card .btn {
+    width: 10em;
+    padding: 1em;
+    border-radius: 0.75em;
+    font-weight: bold;
+}
+
+.sixth-card .par-blue {
+    color: #1eda6d;
+    font-size: 1.5em;
+    opacity: 1;
+}
+
+.seventh-card {
+    padding: 5em 0;
+}
+
+.seventh-card h3 {
+    margin-bottom: 1.5em;
+}
+
+.seventh-card p {
+    font: normal normal normal 1.5em Roboto-Regular;
+}
+
+.seventh-card i {
+    color: #F1304D;
+    font-size: 2em;
+}
+
+.margin-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .slick-slide img {
+        display: inline;
+    }
+    .texto-grafico {
+        top: 7.5em;
+        left: 12.5em;
+    }
+    .third-card .cashback-texts {
+        padding-top: 0;
+    }
+    .fifth-card img {
+        width: 100%;
+    }
+    .card-tipo-conta {
+        margin-bottom: 2em;
+    }
+}

@@ -1,0 +1,148 @@
+body {
+    background-color: #1D2834;
+    overflow-x: hidden;
+    padding-top: 10em;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+.icone,
+.menu img {
+    width: unset;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    color: #FFFFFF;
+}
+
+hr {
+    width: 5em;
+    border-top: 1px solid #FFFFFF80;
+    margin-left: 0;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    /* 100px */
+    font: normal normal normal 6.25em Roboto-Medium;
+}
+
+h2 {
+    /* 45px */
+    font: normal normal normal 2.8125em Roboto-Medium;
+}
+
+h3 {
+    /* 30px */
+    font: normal normal normal 1.875em Roboto-Medium;
+}
+
+h4 {
+    /* 24px */
+    font: normal normal normal 1.5em Roboto-Medium;
+}
+
+h5 {
+    /* 20px */
+    font: normal normal normal 1.25em Roboto-Medium;
+}
+
+p,
+ul li {
+    font: normal normal normal 1.875em Roboto-Regular;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+    text-decoration: none;
+    color: unset;
+    opacity: 0.7;
+}
+
+a p:hover {
+    opacity: 0.4;
+}
+
+.padding-zero {
+    padding: 0!important;
+}
+
+.plus i,
+.minus i {
+    color: #F1304D;
+}
+
+.plus,
+.minus {
+    text-align: center;
+    background-color: #F1304D1A;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    padding-top: 0.25em;
+    float: right;
+}
+
+.minus {
+    display: none;
+}
+
+.d-md-none {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+    hr {
+        margin-left: 0!important;
+        border-top: 2px solid #FFFFFF80;
+    }
+    h1 {
+        /* 100px */
+        font: normal normal normal 4.5em Roboto-Medium;
+    }
+    p,
+    ul li {
+        font: normal normal normal 1.5em Roboto-Regular;
+    }
+    .d-xs-none {
+        display: none;
+    }
+    .d-md-none {
+        display: block;
+    }
+    .margin-auto-mobile {
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .first-card,
+    .second-card,
+    .third-card,
+    .fourth-card,
+    .fifth-card,
+    .sixth-card,
+    .seventh-card,
+    .eighth-card,
+    .nineth-card,
+    .tenth-card {
+        width: unset!important;
+    }
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../plugins/fonts/eot/Roboto-Medium.eot') format('embedded-opentype'), url('../plugins/fonts/woff/Roboto-Medium.woff') format('woff'), url('../plugins/fonts/ttf/Roboto-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../plugins/fonts/eot/Roboto-Regular.eot') format('embedded-opentype'), url('../plugins/fonts/woff/Roboto-Regular.woff') format('woff'), url('../plugins/fonts/ttf/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

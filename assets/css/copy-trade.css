@@ -1,0 +1,125 @@
+.first-card h1 {
+    margin-bottom: 0.5em;
+}
+
+.first-card p {
+    margin-bottom: 1em;
+}
+
+.second-card {
+    padding: 10em 0;
+}
+
+.third-card {
+    padding: 10em 0;
+}
+
+.third-card img {
+    margin-left: -3em;
+}
+
+.fourth-card {
+    padding: 10em 0;
+}
+
+.fourth-card .texts {
+    padding-top: 12.5em;
+}
+
+.fifth-card {
+    padding: 10em 0;
+}
+
+.fifth-card .icone {
+    margin-bottom: 1em;
+}
+
+.fifth-card .btn {
+    padding: 0.75em;
+    border-radius: 1em;
+}
+
+.list-icons {
+    padding-bottom: 3em;
+}
+
+.sixth-card {
+    padding: 10em 0;
+}
+
+.sixth-card .icons p {
+    font-size: 1.5em;
+}
+
+.sixth-card img {
+    padding-bottom: 1em;
+}
+
+.seventh-card {
+    padding: 10em 0;
+}
+
+.seventh-card .btn-dark-green {
+    width: 15em;
+    font-size: 1em;
+    border-radius: 0.75em;
+    padding: 0.75em 0.5em 0.75em 1.5em;
+}
+
+.seventh-card .btn-dark-green i {
+    font-size: 2em;
+    margin-top: 0.35em;
+}
+
+.seventh-card .btn-dark-green span {
+    font-size: 1.5em;
+}
+
+.seventh-card ul {
+    padding-bottom: 2em;
+}
+
+.faq {
+    padding: 10em 0;
+}
+
+.faq p {
+    font-size: 1.5em;
+}
+
+.question {
+    cursor: pointer;
+    padding: 1.5em 0;
+}
+
+.response {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .third-card,
+    .fourth-card,
+    .fifth-card,
+    .sixth-card,
+    .seventh-card {
+        padding: 2.5em 0;
+    }
+    .fourth-card .texts {
+        padding-top: 2.5em;
+    }
+    .icones img {
+        width: 25%;
+    }
+    .icones .icone {
+        margin-bottom: 2em;
+    }
+    .icons img {
+        width: 35%;
+    }
+    .seventh-card ul li {
+        margin-bottom: 2em;
+    }
+    .seventh-card img {
+        margin-top: 3em;
+    }
+}

@@ -1,0 +1,42 @@
+.first-card h1 {
+    margin-bottom: 0.5em;
+}
+
+.first-card p {
+    margin-bottom: 1em;
+}
+
+.second-card {
+    padding: 5em 0;
+}
+
+.second-card p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.second-card img {
+    width: 130%;
+}
+
+.icon-text {
+    position: absolute;
+    top: calc(100% - 2.5em);
+}
+
+.list-icons {
+    padding-bottom: 3em;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .list-icons .margin-auto {
+        margin-bottom: 1em;
+    }
+    .list-icons {
+        padding-bottom: unset;
+    }
+}

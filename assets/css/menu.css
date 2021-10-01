@@ -1,0 +1,128 @@
+.menu,
+.menu-mobile {
+    background-color: #1B2530;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    height: 7em;
+}
+
+.menu img,
+.menu-mobile img {
+    max-height: 4.5em;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+.item {
+    color: #FFFFFF;
+    height: 4.5em;
+    padding: 1.3em;
+    margin: 0 auto;
+}
+
+.menu a.select {
+    border-bottom: 2px solid #00DAD7;
+    padding-bottom: 5px;
+}
+
+.btns-menu {
+    padding-top: 0.5em;
+}
+
+.menu #lenguages ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+}
+
+.menu #lenguages ul li {
+    opacity: 1;
+}
+
+.left-bar #lenguages-mobile ul li {
+    opacity: 1;
+    text-align: center;
+    margin: 0;
+}
+
+#lenguages {
+    padding: 1em 0;
+}
+
+#lenguages-mobile {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.left-bar #lenguages-mobile ul {
+    list-style: none;
+    padding: 0;
+    display: none;
+    margin: 0;
+}
+
+#lenguages .icon-lenguages {
+    cursor: pointer;
+}
+
+a.gflag img {
+    border: 0;
+    margin-top: 0.3em;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-mobile {
+        display: unset;
+        max-height: unset;
+    }
+    .menu-mobile i {
+        color: #FFFFFF;
+        margin-top: 0.75em;
+    }
+    .left-bar {
+        position: fixed;
+        background-color: #000000aa;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 2;
+        display: none;
+    }
+    .left-bar-content {
+        background-color: #1B2530;
+        width: 70%;
+        height: 100%;
+    }
+    .left-bar-content i {
+        color: #FFFFFF;
+        margin-top: 0.75em;
+    }
+    .left-bar-content .btn-close {
+        text-align: center;
+    }
+    .left-bar-body ul {
+        margin-top: 20em;
+        list-style: none;
+    }
+    .left-bar-body ul li {
+        margin: 2em 0;
+        opacity: 1;
+    }
+    a.gflag img {
+        margin: 0.3;
+    }
+}

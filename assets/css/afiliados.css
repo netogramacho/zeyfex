@@ -1,0 +1,128 @@
+.first-card h1 {
+    margin-bottom: 0.5em;
+}
+
+.first-card p {
+    margin-bottom: 1em;
+}
+
+.first-card {
+    padding-bottom: 5em;
+}
+
+.second-card {
+    padding: 5em 0;
+}
+
+.second-card h2 {
+    color: #F1304D;
+    font-size: 4.375em;
+}
+
+.third-card {
+    padding: 10em 0;
+}
+
+.third-card p {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.third-card img {
+    width: 130%;
+}
+
+.icon-text {
+    padding-top: 4.5%;
+}
+
+.list-icons {
+    padding-bottom: 3em;
+}
+
+.fourth-card {
+    padding: 5em 0;
+}
+
+.fourth-card h3 {
+    margin-bottom: 1.5em;
+}
+
+.fourth-card p {
+    font: normal normal normal 1.5em Roboto-Regular;
+    margin-left: -20px;
+}
+
+.fourth-card i {
+    color: #F1304D;
+    font-size: 2em;
+}
+
+.fifth-card {
+    padding: 5em 0;
+}
+
+.fifth-card h2 {
+    padding-bottom: 2em;
+}
+
+.fifth-card .card-left p {
+    font: normal normal normal 1.5em Roboto-Regular;
+}
+
+.sixth-card {
+    padding: 5em 0;
+}
+
+.sixth-card h1 {
+    font-size: 5.6875em;
+    color: #00DAD7;
+}
+
+.sixth-card h2 {
+    margin-bottom: 1em;
+}
+
+.sixth-card p {
+    padding-top: 0.5em;
+}
+
+.sixth-card .btn-light-green {
+    font-size: 1.5em;
+    border-radius: 1em;
+    padding: 0.75em;
+    width: 12.5em;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.text-click p {
+    font: normal normal normal 0.85em Roboto-Regular;
+}
+
+.text-click img {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .icone {
+        width: 100%!important;
+    }
+    .item-icon {
+        margin-bottom: 2em;
+    }
+    .padding-zero {
+        padding: 0;
+    }
+    .six-card-text p {
+        margin-top: 1em;
+    }
+    .fourth-card p {
+        margin-left: unset;
+    }
+    .icon-text {
+        padding-top: 6%;
+    }
+}

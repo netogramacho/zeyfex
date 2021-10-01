@@ -1,0 +1,59 @@
+.first-card {
+    padding: 5em 0;
+}
+
+.second-card {
+    padding: 5em 0;
+}
+
+.card-forma-pagamento {
+    background-color: #262d38;
+    margin: 2em 0;
+    padding: 2em 1em;
+    width: 100%;
+    border-radius: 2em;
+}
+
+.card-forma-pagamento p {
+    font: normal normal normal 1.25em Roboto-Regular;
+}
+
+.card-forma-pagamento .padding-text {
+    padding-top: 1.5em;
+}
+
+.card-forma-pagamento img {
+    width: unset;
+}
+
+.change-card {
+    border-bottom: 3px solid #ffffff;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.change-card h3 {
+    color: #ffffff;
+}
+
+.change-card-selected {
+    border-bottom: 3px solid #F1304D!important;
+    opacity: 1!important;
+}
+
+.change-card-selected h3 {
+    color: #F1304D;
+}
+
+.faq {
+    padding: 10em 0;
+}
+
+.question {
+    cursor: pointer;
+    padding: 1.5em 0;
+}
+
+.response {
+    display: none;
+}

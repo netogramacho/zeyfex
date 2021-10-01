@@ -1,0 +1,11 @@
+.first-card {
+    padding: 5em 0;
+}
+
+.second-card {
+    padding: 5em 0;
+}
+
+.second-card .row {
+    margin-bottom: 4em;
+}

@@ -1,0 +1,152 @@
+.second-card {
+    padding: 5em 0;
+}
+
+.second-card p {
+    font: normal normal normal 1.3125em Roboto-Regular;
+    opacity: 1;
+}
+
+.second-card img {
+    width: unset;
+}
+
+.second-card .topic {
+    text-align: center;
+    width: 13.75em;
+    height: 13.75em;
+    padding: 3em;
+    background-color: #262d38;
+    margin: auto;
+    border-radius: 2.5em;
+    cursor: pointer;
+}
+
+.topic-selected {
+    border: 2px solid #00DAD7;
+}
+
+.second-card .col-md-2 {
+    margin: auto;
+}
+
+.topic p {
+    margin-top: 1em;
+}
+
+.topic i {
+    color: #ffffff;
+}
+
+.third-card {
+    padding: 5em 0;
+    min-height: 20em;
+}
+
+.third-card ul li {
+    font: normal normal normal 1.5em Roboto-Regular;
+    padding-bottom: 0.5em;
+}
+
+.third-card h2 {
+    width: 100%;
+    padding-left: 15px;
+    margin-bottom: 0.5em;
+}
+
+.third-card .response h2 {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0.5em;
+}
+
+.card-question {
+    width: 100%;
+    border-radius: 1em;
+    padding: 1.5em;
+    background-color: #262d38;
+    margin-bottom: 2em;
+}
+
+.card-question-d-none {
+    display: none;
+}
+
+.card-question-title {
+    cursor: pointer;
+}
+
+.question-count {
+    font-size: 1.3125em;
+}
+
+.card-question-text {
+    display: none;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.angle-down {
+    display: none;
+}
+
+.angle-up,
+.angle-down {
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3f4851;
+    border-radius: 50%;
+}
+
+.response {
+    display: none;
+    color: #ffffff;
+}
+
+.question-text-selected {
+    color: #00DAD7;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .topic img {
+        margin: 0 auto;
+        width: 3.5em;
+        height: 4em;
+    }
+    .third-card {
+        text-align: center;
+    }
+    .card-question {
+        text-align: left;
+    }
+    /* MODAL */
+    .modal {
+        top: 25%;
+    }
+    .modal-dialog {
+        margin: 1em;
+    }
+    .modal-content {
+        background-color: #1D2834;
+    }
+    .modal-header {
+        border: none;
+    }
+    .modal-header button {
+        color: #ffffff;
+    }
+    .modal-footer {
+        border: none;
+    }
+    .slick-slide,
+    .slick-current,
+    .slick-active {
+        border: none!important;
+    }
+}
