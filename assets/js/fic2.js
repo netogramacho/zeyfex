@@ -1,6 +1,6 @@
 var myChart;
 
-var porcentagem = 0.15;
+var porcentagem = 0.06;
 
 $(document).ready(function() {
     computarValor();
