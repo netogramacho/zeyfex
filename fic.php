@@ -116,7 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="flex-frame">
                     <div class="flex-item">
                         <ul>
-                            <li>Sem prazo / vencimento mínimo</li>
+                            <li>Investimento a partir de R$ 500,00 reais</li>
                             <li>Rendimento acima da média</li>
                             <li>Segurança</li>
                             <li>Saque dividendos /rendimentos toda semana</li>
@@ -124,7 +124,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <div class="flex-item">
                         <ul>
-                            <li>Investimentos a partir de 100 dólares</li>
+                            <li>Sem prazo / vencimento mínimo</li>
                             <li>Cadastro seguro e gratuito</li>
                             <li>Assessoria personalizada</li>
                             <li>Produtos exclusivos</li>
@@ -341,7 +341,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <h3>Com qual valor posso começar?</h3>
                             <div class="response">
                                 <p>
-                                    O depósito mínimo na corretora é $ 100,00 Dólares.
+                                    O Valor minimo é a partir de R$ 500,00 reais ou U$ 100,00 dólares
                                 </p>
                             </div>
                         </div>
